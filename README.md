@@ -1,163 +1,74 @@
-# Hi 👋, I'm Sai Girish
+<a href="https://girishthedecent.space"><img src="assets/banner.svg" width="100%" alt="hi, I'm Girish Pasupuleti — Backend & Full Stack Engineer · AI Engineering. Open to internships."></a>
 
-### Backend-Focused Developer | Distributed Systems | Real-Time & AI Applications | DSA
+<p>
+  <a href="https://girishthedecent.space"><img src="assets/link-site.svg" height="34" alt="girishthedecent.space"></a>
+  <a href="https://www.linkedin.com/in/girishthedecent"><img src="assets/link-linkedin.svg" height="34" alt="LinkedIn"></a>
+  <a href="https://x.com/girishthedecent"><img src="assets/link-x.svg" height="34" alt="X"></a>
+  <a href="https://leetcode.com/girishthedecent"><img src="assets/link-leetcode.svg" height="34" alt="LeetCode"></a>
+  <a href="mailto:girishpavan985@gmail.com"><img src="assets/link-email.svg" height="34" alt="Email"></a>
+  <a href="https://girishthedecent.space/resume.pdf"><img src="assets/link-resume.svg" height="34" alt="Resume"></a>
+</p>
 
----
+I'm a Software Engineering Intern at [AppWeave](https://appweave.tech) and a B.Tech CSE student at IIIT Nuzvid (2024–2028). I build backend systems, AI agents with RAG, and full stack products, and I'm a Knight on LeetCode.
 
-## 🚀 About Me
+<br>
 
-- 💻 Backend-focused developer building reliable, scalable real-world systems
-- 🧠 Interested in system design, concurrency, distributed systems, and API architecture
-- ⚙️ Experience building microservices, transactional backends, real-time applications, and async workflows
-- 🤖 Building AI-powered applications with function calling, voice workflows, webhooks, and external API integrations
-- 🧪 Strong focus on testing, failure handling, idempotency, and production-ready engineering
-- 🌱 Continuously improving in Data Structures, Algorithms, and system design
+### Building now
 
----
+<a href="https://girishthedecent.space/projects/codebook"><img src="assets/codebook.svg" width="100%" alt="CodeBook — agentic RAG workspace. Ask a book and a codebase in one question."></a>
 
-## 💼 Experience
+[Live demo](https://codebook.girishthedecent.space/) · [Case study](https://girishthedecent.space/projects/codebook) · [Code](https://github.com/girishthedecent/codebook)
 
-### Software Engineering Intern — Appweave
-**May 2026 – Present**
+<br>
 
-- Refactored Certifico's monolithic route handlers into a 7-module service layer, reducing route-layer code by **80%** and improving separation of business logic, testability, and maintainability.
-- Expanded the automated test suite from **81 to 211 tests** across unit and integration layers, covering all 7 core modules with transactional DB rollback, external-service mocks, and PostgreSQL-backed CI validation.
-- Built Collected's gamified achievements system from scratch with **11 APIs, 2 database tables**, and a rule engine supporting **5 metrics, 5 operators, and nested conditions**, increasing user engagement by **20%**.
-- Developed a visual admin rule builder with **10 components**, configurable 4-tier progression, and hourly evaluation in 100-user batches, enabling non-technical admins to manage achievement criteria.
-- Improved a multi-platform scraping pipeline by restoring **10 of 30 previously failing websites**, strengthening validation, filtering, deduplication, retries, and error recovery across 4 platforms.
+### Experience
 
----
+<a href="https://appweave.tech"><img src="assets/experience.svg" width="100%" alt="AppWeave — Software Engineering Intern, May 2026 to present. Collected achievements system, Certifico service-layer rewrite, Marketplace Playwright migration, watch scraper fixes."></a>
 
-## 🛠️ Tech Stack
+<br>
 
-### 👨‍💻 Languages
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+### Selected work
 
-### ⚙️ Backend & Distributed Systems
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![BullMQ](https://img.shields.io/badge/BullMQ-E63946?style=for-the-badge&logo=bullmq&logoColor=white)
-![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=for-the-badge&logo=socket.io&logoColor=white)
+<p>
+  <a href="https://github.com/girishthedecent/HotelBooking"><img src="assets/work-hotelbooking.svg" width="49%" alt="HotelBooking — distributed reservation system"></a>
+  <a href="https://github.com/girishthedecent/algo-backend"><img src="assets/work-algo-backend.svg" width="49%" alt="Algo Backend — distributed online judge"></a>
+  <a href="https://github.com/girishthedecent/Meetly"><img src="assets/work-meetly.svg" width="49%" alt="Meetly — real-time video meetings"></a>
+  <a href="https://github.com/girishthedecent/play-for-impact"><img src="assets/work-play-for-impact.svg" width="49%" alt="Play for Impact — subscription and prize-draw platform"></a>
+</p>
 
-### 🤖 AI & Real-Time
-- AI Agents, Agentic Development, AI Function Calling
-- Voice AI and LLM Applications
-- Webhooks and External API Integration
-- WebRTC and real-time communication
-- Event-driven architectures and API gateways
+Live: [Meetly](https://meetly.girishthedecent.space/) · [Play for Impact](https://play-for-impact.vercel.app)
 
-### 🗄️ Databases
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
-![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=sequelize&logoColor=white)
-![Mongoose](https://img.shields.io/badge/Mongoose-880000?style=for-the-badge&logo=mongoose&logoColor=white)
+### More projects
 
-### 🌐 Frontend
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+| Project | What it is | Stack |
+| --- | --- | --- |
+| [AI Voice Sales Agent](https://github.com/girishthedecent/ai-voice-sales) | Voice agent that qualifies leads as hot, warm or cold and sends tiered WhatsApp follow-ups through validated mid-call tools. | TypeScript, Express, Zod, Docker |
+| [Task API](https://github.com/girishthedecent/Take-Home-Assignment-The-Untested-API) | Test suite and prioritised bug report for a previously untested Express API, with a new endpoint built test-first. | Node.js, Express, Jest |
+| [URL Shortener](https://github.com/girishthedecent/url_shortener) | Type-safe short-link service with tRPC, MongoDB and Redis. | TypeScript, tRPC, MongoDB, Redis |
+| [Contact App](https://github.com/girishthedecent/contact-app) | MERN contact manager with validation and environment-specific CORS. | React, Vite, Express, MongoDB |
+| [Backend Starters](https://github.com/girishthedecent/ts-backend-starter) | Reusable TypeScript and Express service templates. | TypeScript, Express, MongoDB |
+| [GitHub-Inspired Platform](https://github.com/girishthedecent/github) | Repos, profiles, ownership and access control, built system-first. | Node.js, Express |
+| [Airbnb-style App](https://github.com/girishthedecent/airbnb) | Listings, reviews and auth with an MVC architecture. | Node.js, Express |
 
-### 🔧 Engineering & Tools
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+All 12 projects, with descriptions: **[girishthedecent.space/projects](https://girishthedecent.space/projects)**
 
----
+<br>
 
-## 📌 Featured Projects
+### Activity
 
-### 🔹 HotelBooking — Distributed Hotel Reservation System
-**TypeScript · Node.js · MySQL · Redis · BullMQ**
+<p>
+  <a href="https://leetcode.com/girishthedecent"><img src="assets/leetcode.svg" width="49%" alt="LeetCode contest rating, Knight badge and submission heatmap"></a>
+  <a href="https://github.com/girishthedecent"><img src="assets/github.svg" width="49%" alt="GitHub contributions, commits and top languages"></a>
+</p>
 
-- Built a distributed hotel reservation backend with **4 independently deployable microservices** for authentication, hotel management, booking, and notifications.
-- Load-tested **100 simultaneous booking requests** against a single inventory unit, preventing double-booking with Redis distributed locks and duplicate reservations with idempotency keys.
-- Decoupled booking notifications through BullMQ workers and validated asynchronous workflows with **100+ automated API requests**.
+<img src="assets/snake.svg" width="100%" alt="Snake eating my GitHub contribution graph">
 
-🔗 [GitHub](https://github.com/girishthedecent/HotelBooking)
+<br>
 
----
+### Stack
 
-### 🔹 AI Voice Sales — Real-Time AI Sales Agent
-**TypeScript · Node.js · Express.js · Tabbly · Evolution API**
+<img src="assets/stack.svg" width="100%" alt="Languages: TypeScript, JavaScript, C++, Java, Python. Backend: Node.js, Express, FastAPI, Socket.IO, BullMQ, Inngest. AI: RAG, agents, pgvector, Tree-sitter. Frontend: React, Next.js, Vite, Tailwind. Data: PostgreSQL, MySQL, MongoDB, Redis, Prisma. Ops and testing: Docker, AWS, Linux, GitHub Actions, Playwright, Vitest.">
 
-- Built a real-time AI voice sales agent that classifies leads into **3 intent levels** and triggers contextual WhatsApp follow-ups and callback scheduling during live calls.
-- Verified **50+ conversation scenarios** covering AI function calling, intent classification, natural-language callback scheduling, WhatsApp workflows, and fallback handling.
-- Implemented webhook fallback and deduplication to ensure single-action execution across repeated function calls and failure-recovery scenarios.
+<br>
 
-🔗 [GitHub](https://github.com/girishthedecent/AI-Voice-Sales)
-
----
-
-### 🔹 Algo Backend — Distributed Online Judge
-**TypeScript · Node.js · MongoDB · Redis · Docker · BullMQ**
-
-- Built a distributed online judge with **3 microservices** for problem management, submission handling, and asynchronous code evaluation.
-- Stress-tested **50 concurrent submissions** using isolated Docker containers with resource limits, timeouts, and network isolation for untrusted C++ and Python programs.
-- Decoupled submission processing from execution using Redis and BullMQ workers, enabling independent horizontal scaling of evaluation capacity.
-
-🔗 [GitHub](https://github.com/girishthedecent/Algo-Backend)
-
----
-
-### 🔹 Meetly — Real-Time Video Conferencing Platform
-**React · Node.js · Socket.IO · WebRTC · MongoDB**
-
-- Built a WebRTC conferencing platform supporting multi-user video, audio, chat, screen sharing, and meeting rooms, benchmarked with **10 concurrent participants**.
-- Implemented Socket.IO signaling for SDP/ICE exchange and direct peer-to-peer media streaming, keeping media traffic off the application server.
-
-🔗 [Live](https://meetly-mgtt.onrender.com) · [GitHub](https://github.com/girishthedecent/Meetly)
-
----
-
-## 🧠 DSA & Competitive Programming
-
-- 🏆 **Knight on LeetCode** with a peak contest rating of **1900+**
-- 🌎 Ranked in the **Top 4% globally**
-- 💡 Solved **600+** algorithmic and data structure problems across LeetCode and other competitive programming platforms
-
-🔗 [LeetCode](https://leetcode.com/girishthedecent)
-
----
-
-## 🎓 Education
-
-**IIIT Nuzvid — B.Tech in Computer Science and Engineering**  
-2024 – 2028
-
-**Coursework:** Data Structures & Algorithms, Software Engineering, Operating Systems, Computer Networks, DBMS, OOPS
-
----
-
-## 📫 Connect With Me
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abhinava-sri-surya-sai-girish-pasupuleti-86999631b/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:girishpavan985@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/girishthedecent)
-
----
-
-## 🧠 What I Believe In
-
-> **"Systems should be reliable under pressure, not just work in ideal conditions."**
-
----
-
-## 📊 GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=girishthedecent&show_icons=true&theme=github_dark&hide_border=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=girishthedecent&layout=compact&theme=github_dark&hide_border=true)
+<sub>Activity cards refresh daily through GitHub Actions. More at <a href="https://girishthedecent.space">girishthedecent.space</a>.</sub>

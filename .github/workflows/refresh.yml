@@ -1,0 +1,43 @@
+name: Refresh live cards
+
+on:
+  schedule:
+    - cron: "30 0 * * *" # 06:00 IST, daily
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [scripts/**, .github/workflows/**]
+
+permissions:
+  contents: write
+
+concurrency: refresh
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+
+      # LeetCode + GitHub cards. A failed fetch keeps yesterday's image.
+      - run: node scripts/build.mjs live
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            assets/snake.svg?color_snake=#e8432c&color_dots=#161616,#0e4429,#006d32,#26a641,#39d353
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets
+          git diff --cached --quiet || { git commit -m "Refresh live cards" && git push; }

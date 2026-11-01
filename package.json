@@ -1,0 +1,14 @@
+{
+  "name": "girishthedecent",
+  "description": "Profile README for github.com/girishthedecent",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "live": "node scripts/build.mjs live"
+  },
+  "dependencies": {
+    "satori": "^0.63.2",
+    "simple-icons": "^16.36.0"
+  },
+  "type": "module",
+  "private": true
+}
