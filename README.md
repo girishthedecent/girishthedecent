@@ -1,12 +1,12 @@
 <a href="https://girishthedecent.space"><img src="assets/banner.svg" width="100%" alt="hi, I'm Girish Pasupuleti — Backend & Full Stack Engineer · AI Engineering. Open to internships."></a>
 
 <p>
-  <a href="https://girishthedecent.space"><img src="assets/link-site.svg" height="34" alt="girishthedecent.space"></a>
-  <a href="https://www.linkedin.com/in/girishthedecent"><img src="assets/link-linkedin.svg" height="34" alt="LinkedIn"></a>
-  <a href="https://x.com/girishthedecent"><img src="assets/link-x.svg" height="34" alt="X"></a>
-  <a href="https://leetcode.com/girishthedecent"><img src="assets/link-leetcode.svg" height="34" alt="LeetCode"></a>
-  <a href="mailto:girishpavan985@gmail.com"><img src="assets/link-email.svg" height="34" alt="Email"></a>
-  <a href="https://girishthedecent.space/resume.pdf"><img src="assets/link-resume.svg" height="34" alt="Resume"></a>
+  <a href="https://girishthedecent.space"><img src="assets/link-site.svg" height="36" alt="girishthedecent.space"></a>
+  <a href="https://www.linkedin.com/in/girishthedecent"><img src="assets/link-linkedin.svg" height="36" alt="LinkedIn"></a>
+  <a href="https://x.com/girishthedecent"><img src="assets/link-x.svg" height="36" alt="X"></a>
+  <a href="https://leetcode.com/girishthedecent"><img src="assets/link-leetcode.svg" height="36" alt="LeetCode"></a>
+  <a href="mailto:girishpavan985@gmail.com"><img src="assets/link-email.svg" height="36" alt="Email"></a>
+  <a href="https://girishthedecent.space/resume.pdf"><img src="assets/link-resume.svg" height="36" alt="Resume"></a>
 </p>
 
 I'm a Software Engineering Intern at [AppWeave](https://appweave.tech) and a B.Tech CSE student at IIIT Nuzvid (2024–2028). I build backend systems, AI agents with RAG, and full stack products, and I'm a Knight on LeetCode.
@@ -61,7 +61,10 @@ All 12 projects, with descriptions: **[girishthedecent.space/projects](https://g
   <a href="https://github.com/girishthedecent"><img src="assets/github.svg" width="49%" alt="GitHub contributions, commits and top languages"></a>
 </p>
 
-<img src="assets/snake.svg" width="100%" alt="Snake eating my GitHub contribution graph">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/snake-dark.svg">
+  <img src="assets/snake-light.svg" width="100%" alt="Snake eating my GitHub contribution graph">
+</picture>
 
 <br>
 
@@ -71,4 +74,6 @@ All 12 projects, with descriptions: **[girishthedecent.space/projects](https://g
 
 <br>
 
-<sub>Activity cards refresh daily through GitHub Actions. More at <a href="https://girishthedecent.space">girishthedecent.space</a>.</sub>
+<a href="https://girishthedecent.space"><img src="assets/footer.svg" width="100%" alt="Open to internships · girishthedecent.space"></a>
+
+<sub>The banner, cards and stack are SVGs rendered by <a href="scripts/build.mjs">scripts/build.mjs</a>; the activity cards and snake refresh every morning through GitHub Actions.</sub>
